@@ -38,6 +38,7 @@
 ---
 
 ## ✅ 화면 설계서
+<img src="https://github.com/CoderJDan/getRand/blob/3d4004d8ec4cb3c56e75e9d97c32197d19876465/images/getRand()_view.png">
 
 ---
 ### 📌 스토리 보드
