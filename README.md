@@ -44,7 +44,8 @@
 ### 📌 스토리 보드
    <details>
       <summary><b>Main Page</b></summary>
-      ![Main page](https://github.com/CoderJDan/getRand/blob/7c2ddaf1a2c3f1f99e6a3bc4cbdcf247500db1ea/getRand()_Main.gif)
+      <img src="https://github.com/CoderJDan/getRand/blob/7c2ddaf1a2c3f1f99e6a3bc4cbdcf247500db1ea/getRand()_Main.gif">
+      ![Main page]()
    </details>
    <details>
       <summary><b>Realtime Searching Keyword</b></summary>
