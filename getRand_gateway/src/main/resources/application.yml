@@ -1,0 +1,53 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: getRand_gateway
+  cloud:
+    gateway:
+      default-filters:
+        # 헤더의 중복을 제거하기 위한 필터
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: 'http://127.0.0.1:5000'
+            allow-credentials: true
+            allowedHeaders: '*'
+            allowedMethods:
+              - PUT
+              - GET
+              - POST
+              - DELETE
+              - OPTIONS
+      routes:
+        - id: userservice
+          uri: lb://userservice
+          predicates:
+            - Path=/userservice/**
+#          filters:
+#            -
+        - id: datacollectionservice
+          uri: lb://datacollectionservice
+          predicates:
+            - Path=/datacollectionservice/**
+#          filters:
+#            -
+        - id: analysticservice
+          uri: lb://analysticservice
+          predicates:
+            - Path=/analysticservice/**
+
+#      default-filters:
+#        - name: GlobalFilter
+#          args:
+#            data: global filter data
+#            check: true
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
