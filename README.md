@@ -11,8 +11,8 @@
 | 이름       | GitHub                                  |
 |------------|-----------------------------------------|
 | 장현진     | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/CoderJDan) |
-| 윤성훈     | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/mini-xi) |
-| 이효재     | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/mini-xi) |
+| 윤성훈     | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/YunSHCode) |
+| 이효재     | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/7-Full-stackbackendLEEHYOJAE) |
 
 ---
 
